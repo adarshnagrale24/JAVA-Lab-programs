@@ -1,0 +1,12 @@
+package com.company;
+import java.awt.*;
+
+public class createframe{
+    public static void main(String[] args){
+        Frame frm = new Frame("sid first java frame");
+        Label lbl = new Label("Hello world",Label.CENTER);
+        frm.add(lbl);
+        frm.setSize(400,400);
+        frm.setVisible(true);
+    }
+}
